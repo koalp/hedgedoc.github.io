@@ -1,0 +1,26 @@
+@media(prefers-color-scheme: dark) {
+    $bg-color: #303030;
+    $fg-color: #ECECEC;
+    $fg-color-link: #999999;
+
+    .bg-white, footer {
+        background-color: $bg-color !important;
+    }
+    .navbar-light .navbar-nav .nav-link,
+    .footer-menu a,
+    footer p.copyright-text,
+    .heading > h2 {
+        color: $fg-color !important;
+    }
+
+    footer p.copyright-text a {
+        color: $fg-color-link !important;
+        font-weight: bold
+    }
+
+    body {
+        background-color: $bg-color;
+        color: $fg-color;
+    }
+
+}
